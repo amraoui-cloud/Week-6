@@ -1,0 +1,18 @@
+file_type: csv
+dataset_name: kagle_datasets
+file_name: the-reddit-climate-change-dataset-comments
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - type
+      - id
+      - susbreddit.id
+      - subreddit.name
+      - subreddit.nsfw
+      - created_utc
+      - permalink
+      - body
+      - sentiment
+      - score
